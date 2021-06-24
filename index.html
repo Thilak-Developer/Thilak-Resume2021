@@ -118,21 +118,23 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Facts</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Certifications</h2>
         </div>
 
-        <div class="row">
+      
 
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Happy Clients</p>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/FreeCodeCamp - Responsive Web Design.jpeg" class="d-block w-100" alt="...">
+              </div>
+              
             </div>
-          </div>
+          </div> -->
+          
+          
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <!-- <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <i class="bi bi-journal-richtext"></i>
               <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
@@ -154,12 +156,12 @@
               <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
               <p>Awards</p>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
       </div>
-    </section> -->
+    </section>
     <!-- End Facts Section -->
 
     <!-- ======= Skills Section ======= -->
@@ -508,12 +510,12 @@
     </section> -->
     <!-- End Services Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <!-- <section id="testimonials" class="testimonials section-bg">
+     <!-- ======= Testimonials Section ======= -->
+     <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Testimonials</h2>
+          <h2>Certifications</h2>
         </div>
 
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -521,17 +523,54 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div> -->
-            
+                <img src="assets/img/testimonials/Logo/icons8-ibm-96.png" class="bi-file-image" alt="">
+                <h3>IBM</h3>
+                <h4>Chat Box - Level 1</h4>
+                <img src="assets/img/testimonials/IBM-Chatbox.png" class="" style="border-radius: 15px 50px 30px;height: 450px;" alt="">
+               
+              </div>
+            </div><!-- End testimonial item -->
 
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/Logo/icons8-google-96.png" class="testimonial-img" alt="">
+                <h3>Google Creative Certification</h3>
+                <h4>Google</h4>
+                <img src="assets/img/testimonials/Google Creative Certification.png" class="" style="border-radius: 15px 50px 30px;height: 450px;" alt="">
+
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/Logo/5847f91ccef1014c0b5e48b8.png" class="testimonial-img" alt="">
+                <h3>Responsive Web design Certification</h3>
+                <h4>FreeCodeCamp</h4>
+                <img src="assets/img/testimonials/FreeCodeCamp - Responsive Web Design.jpeg" class="" style="border-radius: 15px 50px 30px;height: 450px;" alt="">
+
+              
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/Logo/icons8-hackerrank-96.png" class="testimonial-img" alt="">
+                <h3>Problem Solving Basic Certification</h3>
+                <h4>HackerRank</h4>
+                <img src="assets/img/testimonials/Problem Solving Basic - HackerRank.png" class="" style="border-radius: 15px 50px 30px;height: 450px;" alt="">
+
+               
+              </div>
+            </div><!-- End testimonial item -->
+
+           
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
@@ -638,6 +677,19 @@
 
 
 <!-- emailjs.send("service_lmqhkmp","template_2hu7gp7"); -->
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "4fbdcdb9-3314-4369-a0df-d36230a4b07a", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "9aca3ff0-a37f-443e-9013-d46c3fc5ac5e", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
 
 
 </body>
