@@ -977,9 +977,9 @@ section {
   background-color: #0563bb;
 }
 
-@media (min-width: 992px) {
-  .testimonials .testimonial-item p {
-    width: 80%;
+@media (max-width: 808px) {
+  .testimonials  {
+   display: none;
   }
 }
 
